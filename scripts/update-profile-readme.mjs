@@ -48,8 +48,8 @@ const GROUPS = [
           "A protocol for an agent to state who it is, what it is permitted to do, and where it came from, in a form another system can check instead of taking on faith.",
       },
       {
-        name: "opensolvency",
-        display: "OpenSolvency",
+        name: "agentworth",
+        display: "AgentWorth",
         description:
           "A governance layer for agents that move money: spending mandates they cannot exceed, kill switches, and signed enforcement that leaves an auditable trail.",
       },
