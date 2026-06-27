@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/gl-header.svg" alt="General Liquidity" width="860" />
+  <img src="../assets/gl-header.png" alt="General Liquidity" width="860" />
 </p>
 
 # General Liquidity
