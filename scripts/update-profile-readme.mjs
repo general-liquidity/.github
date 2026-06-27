@@ -25,11 +25,13 @@ const GROUPS = [
     repos: [
       {
         name: "openoutcry",
+        display: "OpenOutcry",
         description:
           "A point-in-time market environment for training and evaluating trading agents without lookahead leakage. Every scenario is reconstructed from a seed so runs stay reproducible, with native bindings for Rust, Python, and WebAssembly.",
       },
       {
         name: "sharpebench",
+        display: "SharpeBench",
         description:
           "A benchmark that refuses to reward luck. It scores agents on the Sharpe ratio that survives deflation for the number of strategies tried, and asks them to commit before the evaluation window so a result cannot be fit after the fact.",
       },
@@ -41,11 +43,13 @@ const GROUPS = [
     repos: [
       {
         name: "agent-disclosure-protocol",
+        display: "Agent Disclosure Protocol",
         description:
           "A protocol for an agent to state who it is, what it is permitted to do, and where it came from, in a form another system can check instead of taking on faith.",
       },
       {
         name: "opensolvency",
+        display: "OpenSolvency",
         description:
           "A governance layer for agents that move money: spending mandates they cannot exceed, kill switches, and signed enforcement that leaves an auditable trail.",
       },
@@ -57,6 +61,7 @@ const GROUPS = [
     repos: [
       {
         name: "holotype",
+        display: "Holotype",
         description:
           'A trust root for financial decisions and transactions. It turns a claim, such as "this backtest had no lookahead" or "this payment ran under this mandate", into a signed, canonical receipt that anyone can verify offline, without trusting the issuer or us.',
       },
@@ -99,10 +104,10 @@ function badge(label, message, color, link) {
   return `[![${label}](${url})](${link})`;
 }
 
-function row(name, description, c) {
+function row(name, display, description, c) {
   const base = `https://github.com/${ORG}/${name}`;
   return [
-    `[${name}](${base})`,
+    `[${display}](${base})`,
     description,
     badge("stars", c.stars, "0969da", `${base}/stargazers`),
     badge("issues", `${c.issues}+open`, c.issues ? "bf8700" : "1a7f37", `${base}/issues`),
@@ -122,7 +127,7 @@ for (const group of GROUPS) {
       // rather than failing the whole run.
       console.error(`skip ${repo.name}: ${err.message}`);
     }
-    rows.push(`| ${row(repo.name, repo.description, c)} |`);
+    rows.push(`| ${row(repo.name, repo.display ?? repo.name, repo.description, c)} |`);
   }
   blocks.push(
     `### ${group.title}\n\n${group.blurb}\n\n` +
