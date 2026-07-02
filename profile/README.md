@@ -67,11 +67,11 @@ The verifiable spine both halves are built on.
 
 | Repository | Description | Stars | Issues | PRs |
 |---|---|--:|--:|--:|
-| [Holotype](https://github.com/general-liquidity/holotype) | A trust root for financial decisions and transactions. It turns a claim, such as "this backtest had no lookahead" or "this payment ran under this mandate", into a signed, canonical receipt that anyone can verify offline, without trusting the issuer or us. | [![stars](https://img.shields.io/static/v1?style=flat-square&logo=github&logoColor=white&label=stars&message=0&color=0969da)](https://github.com/general-liquidity/holotype/stargazers) | [![issues](https://img.shields.io/static/v1?style=flat-square&logo=github&logoColor=white&label=issues&message=0%2Bopen&color=1a7f37)](https://github.com/general-liquidity/holotype/issues) | [![pull requests](https://img.shields.io/static/v1?style=flat-square&logo=github&logoColor=white&label=pull%20requests&message=0%2Bopen&color=1a7f37)](https://github.com/general-liquidity/holotype/pulls) |
+| [FinTrieval](https://github.com/general-liquidity/fintrieval) | Verifiable, point-in-time memory for the financial agentic economy: a system-of-record for what an agent knew, that it was allowed to act, and that the money reconciled. Bi-temporal recall with no lookahead, cryptographic provenance, and governed writes, over a signed attestation layer anyone can verify offline. | [![stars](https://img.shields.io/static/v1?style=flat-square&logo=github&logoColor=white&label=stars&message=0&color=0969da)](https://github.com/general-liquidity/fintrieval/stargazers) | [![issues](https://img.shields.io/static/v1?style=flat-square&logo=github&logoColor=white&label=issues&message=0%2Bopen&color=1a7f37)](https://github.com/general-liquidity/fintrieval/issues) | [![pull requests](https://img.shields.io/static/v1?style=flat-square&logo=github&logoColor=white&label=pull%20requests&message=0%2Bopen&color=1a7f37)](https://github.com/general-liquidity/fintrieval/pulls) |
 
 <!-- repositories:end -->
 
-> Built from open crates: `sharpebench-sim`, `sharpebench-stats`, and `holotype-core`.
+> Built from open crates: `sharpebench-sim`, `sharpebench-stats`, and `fintrieval-core`.
 > In progress: OrderLog, EdgeLint, and TapeTrace.
 
 ## Where to find us

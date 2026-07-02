@@ -60,10 +60,10 @@ const GROUPS = [
     blurb: "The verifiable spine both halves are built on.",
     repos: [
       {
-        name: "holotype",
-        display: "Holotype",
+        name: "fintrieval",
+        display: "FinTrieval",
         description:
-          'A trust root for financial decisions and transactions. It turns a claim, such as "this backtest had no lookahead" or "this payment ran under this mandate", into a signed, canonical receipt that anyone can verify offline, without trusting the issuer or us.',
+          'Verifiable, point-in-time memory for the financial agentic economy: a system-of-record for what an agent knew, that it was allowed to act, and that the money reconciled. Bi-temporal recall with no lookahead, cryptographic provenance, and governed writes, over a signed attestation layer anyone can verify offline.',
       },
     ],
   },
