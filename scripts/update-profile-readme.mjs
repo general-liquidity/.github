@@ -61,7 +61,7 @@ const GROUPS = [
     repos: [
       {
         name: "fintrieval",
-        display: "FinTrieval",
+        display: "Fintrieval",
         description:
           'Verifiable, point-in-time memory for the financial agentic economy: a system-of-record for what an agent knew, that it was allowed to act, and that the money reconciled. Bi-temporal recall with no lookahead, cryptographic provenance, and governed writes, over a signed attestation layer anyone can verify offline.',
       },
