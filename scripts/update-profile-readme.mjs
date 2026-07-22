@@ -39,19 +39,31 @@ const GROUPS = [
   },
   {
     title: "Agentic economy",
-    blurb: "Protocols for agents to identify themselves, hold authority, and stay governable.",
+    blurb: "The developer surface agents call to move money under governance.",
     repos: [
       {
-        name: "agent-disclosure-protocol",
-        display: "Agent Disclosure Protocol",
+        name: "general-liquidity-openapi",
+        display: "OpenAPI spec",
         description:
-          "A protocol for an agent to state who it is, what it is permitted to do, and where it came from, in a form another system can check instead of taking on faith.",
+          "The OpenAPI 3.1 contract for the governed payment surface, the source of truth every client pins to. It states who is allowed to move value, on which rail, under what mandate, and what proof comes back.",
       },
       {
-        name: "agentworth",
-        display: "AgentWorth",
+        name: "general-liquidity-typescript",
+        display: "TypeScript SDK",
         description:
-          "A governance layer for agents that move money: spending mandates they cannot exceed, kill switches, and signed enforcement that leaves an auditable trail.",
+          "The hand-written TypeScript client: an agent signs and submits a payment intent and never holds a settle primitive, with a built-in operator signer for approvals, refunds, and the kill switch.",
+      },
+      {
+        name: "general-liquidity-mcp",
+        display: "MCP server",
+        description:
+          "The payment surface as agent tools over the Model Context Protocol: resolve a counterparty, pay under a mandate, verify a disclosure, and disclose the agent's own identity.",
+      },
+      {
+        name: "general-liquidity-cli",
+        display: "gl CLI",
+        description:
+          "The operator command line: replay an audit log against a candidate mandate to see what it would have changed, and verify a signed chain offline.",
       },
     ],
   },
