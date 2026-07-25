@@ -16,17 +16,21 @@ An applied product and research lab
 
 ## The thesis
 
-Agents are about to hold budgets, sign for value, and act on standing mandates. The capability is nearly here. The authority is not.
+The economy is being handed to actors that are not people. Agents are about to hold budgets, sign for value, and act on standing mandates, transacting at machine speed against counterparties they have never met.
 
-In most software, being slightly wrong is survivable. Where money moves, being *nearly* right is just being wrong with a settlement attached. What the agentic economy is missing is not a smarter model. It is the layer that decides which intentions become actions: permissions, approvals, durable memory, disciplined execution, and failure you can read after the fact.
+[Fabric's essay on the machine economy](https://www.fabric.vc/writing/the-machine-economy) gets the shape right: compute, models, and programmable money converge until agents become economic actors rather than tools. Its sharpest observation is that once capability is abundant, "the scarce and therefore precious resource is no longer capability, it becomes direction."
 
-We build that layer, and we build it in the open. The applied product proves the architecture against real money. The research infrastructure is the part the rest of the field can use.
+We part company on what follows. That essay treats the question of who directs the flywheel as political and philosophical rather than an engineering one. It is both, and the engineering half is the part nobody is building. Direction has to live somewhere concrete: delegated, bounded, priced, and refusable. In practice that somewhere is a single API call, made by an agent, at machine speed, with no human watching it happen. Governance that cannot be enforced inside that call is not governance. It is a policy document.
+
+So we build the **API for the machine economy**: one governed surface over payment, commerce, identity, and provenance, where an agent states an intent and a mandate decides whether it becomes an action. The agent never holds the settle primitive. Every enforcement decision is falsifiable after the fact, by anyone, offline.
+
+We build it in the open. The applied product proves the architecture against real money. The research infrastructure is the part the rest of the field can use.
 
 <br />
 
 ## What we build
 
-### Flagship product
+### The applied flagship
 
 **[Gordon](https://github.com/general-liquidity/gordon)** is a plan-first AI trading agent that brings institutional-grade discipline to retail traders. You state intent in plain language, it drafts a structured plan, you approve it, and a deny-first risk harness gates every order before it reaches a venue. Open source under MIT, local-first, no account.
 
