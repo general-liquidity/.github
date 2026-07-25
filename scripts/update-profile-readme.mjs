@@ -24,10 +24,10 @@ const GROUPS = [
     blurb: "The environments and benchmarks behind the agent.",
     repos: [
       {
-        name: "openoutcry",
-        display: "OpenOutcry",
+        name: "sharpearena",
+        display: "SharpeArena",
         description:
-          "A point-in-time market environment for training and evaluating trading agents without lookahead leakage. Every scenario is reconstructed from a seed so runs stay reproducible, with native bindings for Rust, Python, and WebAssembly.",
+          "A point-in-time market environment for training and evaluating trading agents without lookahead leakage. Every scenario is reconstructed from a seed so runs stay reproducible, with a language-agnostic contract agents speak.",
       },
       {
         name: "sharpebench",
@@ -54,6 +54,24 @@ const GROUPS = [
           "The hand-written TypeScript client: an agent signs and submits a payment intent and never holds a settle primitive, with a built-in operator signer for approvals, refunds, and the kill switch.",
       },
       {
+        name: "general-liquidity-python",
+        display: "Python SDK",
+        description:
+          "The Python client for the same governed surface, generated from the spec so it cannot drift from the contract.",
+      },
+      {
+        name: "general-liquidity-rust",
+        display: "Rust SDK",
+        description:
+          "The Rust client for the governed surface, for services that want the contract enforced at compile time.",
+      },
+      {
+        name: "general-liquidity-go",
+        display: "Go SDK",
+        description:
+          "The Go client for the governed surface, for backends and infrastructure that already speak Go.",
+      },
+      {
         name: "general-liquidity-mcp",
         display: "MCP server",
         description:
@@ -64,18 +82,6 @@ const GROUPS = [
         display: "gl CLI",
         description:
           "The operator command line: replay an audit log against a candidate mandate to see what it would have changed, and verify a signed chain offline.",
-      },
-    ],
-  },
-  {
-    title: "Trust and data substrate",
-    blurb: "The verifiable spine both halves are built on.",
-    repos: [
-      {
-        name: "fintrieval",
-        display: "Fintrieval",
-        description:
-          'Verifiable, point-in-time memory for the financial agentic economy: a system-of-record for what an agent knew, that it was allowed to act, and that the money reconciled. Bi-temporal recall with no lookahead, cryptographic provenance, and governed writes, over a signed attestation layer anyone can verify offline.',
       },
     ],
   },
