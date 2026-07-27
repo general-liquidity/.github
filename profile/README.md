@@ -4,9 +4,9 @@
 
 # General Liquidity
 
-**The OS for the agentic economy.**
+**The OS for the machine economy.**
 
-An applied product and research lab
+An applied research lab
 
 [generalliquidity.com](https://generalliquidity.com) · [gordoncli.com](https://gordoncli.com)
 
