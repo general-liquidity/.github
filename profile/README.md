@@ -4,7 +4,7 @@
 
 # General Liquidity
 
-**The orchestration layer for the agentic economy.**
+**The OS for the agentic economy.**
 
 An applied product and research lab
 
