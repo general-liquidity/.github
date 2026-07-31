@@ -8,7 +8,25 @@ Organization-level GitHub configuration for [General Liquidity](https://github.c
   `repositories:end` markers. Repository descriptions live in that script.
 - [`.github/workflows/update-readme.yml`](.github/workflows/update-readme.yml) runs the
   generator daily, on demand, and whenever the generator changes.
-- [`assets/`](assets) holds the profile banner.
+- [`assets/`](assets) holds the profile banners.
+
+## Assets
+
+`banner.png` and `banner-dark.png` are generated, not drawn. They come from
+`scripts/make-lockups.ts` in the website repository, which sets the wordmark in the same
+General Sans file the site serves, so a banner cannot drift from the site header. Copy them
+across after regenerating rather than editing them here.
+
+The profile serves them through a `<picture>` element so GitHub shows the dark cut to
+readers in dark mode. `gl-header.png` is the previous banner, kept only until nothing
+references it.
+
+## Ordering
+
+Group order on the profile is priority, not history, and is a deliberate statement. The
+machine economy API comes first because it is what the company is for. Capital markets
+follows as one table holding Gordon, SharpeBench and SharpeArena: public and maintained,
+but no longer the focus.
 
 ## Notes
 
