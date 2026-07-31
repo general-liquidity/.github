@@ -79,31 +79,6 @@ Where the work started. Trading was the proving ground for delegated financial a
 
 <br />
 
-## Writing
-
-The thinking behind the above, in the order it was worked out.
-
-| | |
-|:--|:--|
-| [Everything-as-a-Market](https://generalliquidity.com/blog/everything-is-market) | Markets are turning from places people visit into endpoints software consumes directly. |
-| [Agent Payments Won't Look Like Checkout](https://generalliquidity.com/blog/agent-payments-wont-look-like-checkout) | Agent commerce resembles business coordination, not consumer checkout: suppliers rather than one-off merchants. |
-| [Crypto Was Built for Agents](https://generalliquidity.com/blog/crypto-was-built-for-agents) | Machine-native rails raise the importance of the control layer rather than removing it. |
-| [The Seam Is the Moat](https://generalliquidity.com/blog/the-seam-is-the-product) | The valuable products get built at the boundary between systems, where trust and money actually break. |
-| [User Ownership == Margin Capture](https://generalliquidity.com/blog/user-ownership-margin-capture) | Economics settle with whoever owns the user relationship and the control surface, not the raw rails. |
-| [Why General Liquidity Exists](https://generalliquidity.com/blog/why-general-liquidity-exists) | Why we built a trading agent first, and what it taught us about delegated financial action. |
-
-<br />
-
-## How we work
-
-**The model proposes. The harness disposes.** Intelligence and authority are separated by design in everything we ship. The component that reasons about an action is never the component authorised to take it.
-
-**Open by default.** The specs, SDKs, benchmarks, and environments are public because a governance layer nobody can inspect is not a governance layer. Read the code on the paths that touch money.
-
-**Verifiable over trusted.** Where we make a claim about what an agent knew, was allowed to do, or actually did, we would rather hand you a proof than ask for your confidence.
-
-<br />
-
 ## Where to find us
 
 | | |
