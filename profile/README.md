@@ -8,7 +8,7 @@
 We research markets and build autonomous trading systems for our own capital.
 Independent, founder-run, and self-funded.
 
-### Projects
+### Products
 
 - [Gordon](https://github.com/general-liquidity/gordon): a quantitative trading agent harness for researching strategies, testing ideas, and executing trades under explicit risk controls.
 - [SharpeBench](https://github.com/general-liquidity/sharpebench): evaluation of trading agents.
