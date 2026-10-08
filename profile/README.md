@@ -13,7 +13,4 @@ Independent, founder-run, and self-funded.
 - [SharpeBench](https://github.com/general-liquidity/sharpebench): evaluation of trading agents.
 - [SharpeArena](https://github.com/general-liquidity/sharpearena): reproducible environments for trading-agent research.
 
-Our earlier consumer trading product and machine-economy API work are no longer
-the company's focus.
-
 [Website](https://generalliquidity.com) · [Contact](mailto:contact@generalliquidity.com)
