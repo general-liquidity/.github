@@ -9,6 +9,8 @@
 
 We build environments, evaluations and benchmarks for AI agents in financial markets. Our work investigates whether trading performance survives statistical scrutiny, execution constraints and changing market conditions, with the long-term aim of developing durable alpha.
 
+[Visit our website →](https://generalliquidity.com)
+
 ### Products
 
 Gordon provides a harness for quantitative trading-agent workflows.<br>
