@@ -5,7 +5,7 @@
 
 ## A neotrading research lab
 
-We research markets and build autonomous trading systems for our own capital.
+We research and evaluate AI agents for financial markets, building toward an autonomous trading organization.
 
 ### Products
 
