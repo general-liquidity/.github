@@ -7,7 +7,7 @@
 
 We build environments and benchmarks to study how AI agents reason, learn, and trade in financial markets.
 
-Our research brings together quantitative methods, agent evaluation, and systematic trading. We investigate where trading agents break down and how to distinguish genuine capability from luck, leakage, and overfitting. Our long-term goal is to build an autonomous trading organization that turns research into durable trading edge.
+Our research brings together quantitative methods, agent evaluation, and systematic trading. We investigate where trading agents break down and how to distinguish genuine capability from luck, leakage, and overfitting. Our long-term goal is to build an autonomous trading organization that turns research into durable alpha.
 
 ### Products
 
