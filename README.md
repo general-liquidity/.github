@@ -1,42 +1,10 @@
-# .github
+# General Liquidity organization profile
 
-Organization-level GitHub configuration for [General Liquidity](https://github.com/general-liquidity).
+[`profile/README.md`](profile/README.md) renders on the
+[General Liquidity GitHub organization page](https://github.com/general-liquidity).
 
-- [`profile/README.md`](profile/README.md) renders on the [organization profile page](https://github.com/general-liquidity).
-- [`scripts/update-profile-readme.mjs`](scripts/update-profile-readme.mjs) regenerates the
-  repository tables (stars, issues, pull requests) between the `repositories:start` and
-  `repositories:end` markers. Repository descriptions live in that script.
-- [`.github/workflows/update-readme.yml`](.github/workflows/update-readme.yml) runs the
-  generator daily, on demand, and whenever the generator changes.
-- [`assets/`](assets) holds the profile banners.
+Edit the profile directly. The former repository-table generator and daily
+statistics workflow have been retired so they cannot restore outdated positioning.
 
-## Assets
-
-`banner.png` and `banner-dark.png` are generated, not drawn. They come from
-`scripts/make-lockups.ts` in the website repository, which sets the wordmark in the same
-General Sans file the site serves, so a banner cannot drift from the site header. Copy them
-across after regenerating rather than editing them here.
-
-The profile serves them through a `<picture>` element so GitHub shows the dark cut to
-readers in dark mode. `gl-header.png` is the previous banner, kept only until nothing
-references it.
-
-## Ordering
-
-Group order on the profile is priority, not history, and is a deliberate statement. The
-machine economy API comes first because it is what the company is for. Capital markets
-follows as one table holding Gordon, SharpeBench and SharpeArena: public and maintained,
-but no longer the focus.
-
-## Notes
-
-For the profile to render, this repository must be created on GitHub as
-`general-liquidity/.github` (the special organization configuration repository).
-
-To add or move a repository on the profile, edit the `GROUPS` array in
-`scripts/update-profile-readme.mjs` and run it locally with a token, or let the workflow
-refresh it:
-
-```
-GITHUB_TOKEN=<token> node scripts/update-profile-readme.mjs
-```
+[`assets/`](assets/) contains the existing light and dark banners. This profile
+update does not redesign the company website or change repository support status.
