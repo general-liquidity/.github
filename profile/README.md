@@ -10,7 +10,7 @@ Independent, founder-run, and self-funded.
 
 ### Projects
 
-- [Gordon](https://github.com/general-liquidity/gordon): trading-agent tooling for market research and execution.
+- [Gordon](https://github.com/general-liquidity/gordon): a quant trading agent harness.
 - [SharpeBench](https://github.com/general-liquidity/sharpebench): evaluation of trading agents.
 - [SharpeArena](https://github.com/general-liquidity/sharpearena): reproducible environments for trading-agent research.
 
