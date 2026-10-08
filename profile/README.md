@@ -8,8 +8,9 @@
 We research markets and build autonomous trading systems for our own capital.
 Independent, founder-run, and self-funded.
 
-### Open research
+### Projects
 
+- [Gordon](https://github.com/general-liquidity/gordon): trading-agent tooling for market research and execution.
 - [SharpeBench](https://github.com/general-liquidity/sharpebench): evaluation of trading agents.
 - [SharpeArena](https://github.com/general-liquidity/sharpearena): reproducible environments for trading-agent research.
 
