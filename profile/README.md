@@ -11,6 +11,12 @@ We build environments, evaluations and benchmarks for AI agents in financial mar
 
 ### Products
 
+Gordon provides a harness for quantitative trading-agent workflows.<br>
+SharpeBench evaluates trading-agent evidence through statistical, reliability and risk checks.<br>
+SharpeArena provides deterministic environments for trading-agent training and evaluation.
+
+Together, SharpeArena and SharpeBench connect experimentation with rigorous evaluation.
+
 | Product | Description | Metrics |
 |---|---|:---:|
 | [Gordon](https://github.com/general-liquidity/gordon) | a quantitative trading agent harness for market research, strategy testing, and execution under deterministic risk controls. | [![Stars](https://img.shields.io/github/stars/general-liquidity/gordon?style=flat-square&label=stars&color=eab308&labelColor=334155)](https://github.com/general-liquidity/gordon/stargazers) [![Forks](https://img.shields.io/github/forks/general-liquidity/gordon?style=flat-square&label=forks&color=3b82f6&labelColor=334155)](https://github.com/general-liquidity/gordon/forks) |
