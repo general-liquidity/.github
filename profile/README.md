@@ -12,6 +12,6 @@ Independent, founder-run, and self-funded.
 
 - [Gordon](https://github.com/general-liquidity/gordon): a quantitative trading agent harness for market research, strategy testing, and execution under deterministic risk controls.
 - [SharpeBench](https://github.com/general-liquidity/sharpebench): a trading-agent benchmark for evaluating risk-adjusted performance, reliability, and process discipline.
-- [SharpeArena](https://github.com/general-liquidity/sharpearena): a deterministic reinforcement-learning environment and evaluation sandbox for trading agents, with point-in-time market data and reproducible execution.
+- [SharpeArena](https://github.com/general-liquidity/sharpearena): a deterministic RL environment and evaluation sandbox for trading agents, with point-in-time (PIT) market data and reproducible execution.
 
 [Website](https://generalliquidity.com) · [Contact](mailto:contact@generalliquidity.com)
