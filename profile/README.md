@@ -5,17 +5,23 @@
 
 ## A neotrading research lab
 
-We build environments and benchmarks to study how AI agents reason, learn, and trade in financial markets.
+General Liquidity is a neotrading research lab building toward an autonomous trading organization.
 
-Our research brings together quantitative methods, agent evaluation, and systematic trading. We investigate where trading agents break down and how to distinguish genuine capability from luck, leakage, and overfitting. Our long-term goal is to build an autonomous trading organization that turns research into durable alpha.
+We build environments, evaluations and benchmarks for AI agents in financial markets. Our work investigates whether trading performance survives statistical scrutiny, execution constraints and changing market conditions—with the long-term aim of developing durable alpha.
 
 ### Products
+
+SharpeArena provides deterministic environments for trading-agent training and evaluation; SharpeBench evaluates the resulting evidence. Together, they connect experimentation with statistical, reliability and risk checks. Gordon provides a harness for quantitative trading-agent workflows.
 
 | Product | Description | Metrics |
 |---|---|:---:|
 | [Gordon](https://github.com/general-liquidity/gordon) | a quantitative trading agent harness for market research, strategy testing, and execution under deterministic risk controls. | [![Stars](https://img.shields.io/github/stars/general-liquidity/gordon?style=flat-square&label=stars&color=eab308&labelColor=334155)](https://github.com/general-liquidity/gordon/stargazers) [![Forks](https://img.shields.io/github/forks/general-liquidity/gordon?style=flat-square&label=forks&color=3b82f6&labelColor=334155)](https://github.com/general-liquidity/gordon/forks) |
 | [SharpeBench](https://github.com/general-liquidity/sharpebench) | a trading-agent benchmark for evaluating risk-adjusted performance, reliability, and process discipline. | [![Stars](https://img.shields.io/github/stars/general-liquidity/sharpebench?style=flat-square&label=stars&color=eab308&labelColor=334155)](https://github.com/general-liquidity/sharpebench/stargazers) [![Forks](https://img.shields.io/github/forks/general-liquidity/sharpebench?style=flat-square&label=forks&color=3b82f6&labelColor=334155)](https://github.com/general-liquidity/sharpebench/forks) |
 | [SharpeArena](https://github.com/general-liquidity/sharpearena) | a deterministic RL environment and evaluation sandbox for trading agents, with point-in-time (PIT) observations and reproducible execution. | [![Stars](https://img.shields.io/github/stars/general-liquidity/sharpearena?style=flat-square&label=stars&color=eab308&labelColor=334155)](https://github.com/general-liquidity/sharpearena/stargazers) [![Forks](https://img.shields.io/github/forks/general-liquidity/sharpearena?style=flat-square&label=forks&color=3b82f6&labelColor=334155)](https://github.com/general-liquidity/sharpearena/forks) |
+
+### Research direction
+
+Our research brings together quantitative methods, agent evaluation and systematic trading. We investigate where trading agents break down and how to distinguish genuine capability from luck, leakage and overfitting. These foundations support our ambition to operate an autonomous trading organization; they are not yet evidence of a durable trading edge.
 
 ### Paper implementations
 
