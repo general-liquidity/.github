@@ -7,11 +7,9 @@
 
 General Liquidity is a neotrading research lab building toward an autonomous trading organization.
 
-We build environments, evaluations and benchmarks for AI agents in financial markets. Our work investigates whether trading performance survives statistical scrutiny, execution constraints and changing market conditions—with the long-term aim of developing durable alpha.
+We build environments, evaluations and benchmarks for AI agents in financial markets. Our work investigates whether trading performance survives statistical scrutiny, execution constraints and changing market conditions, with the long-term aim of developing durable alpha.
 
 ### Products
-
-SharpeArena provides deterministic environments for trading-agent training and evaluation; SharpeBench evaluates the resulting evidence. Together, they connect experimentation with statistical, reliability and risk checks. Gordon provides a harness for quantitative trading-agent workflows.
 
 | Product | Description | Metrics |
 |---|---|:---:|
