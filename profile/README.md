@@ -5,7 +5,7 @@
 
 # General Liquidity
 
-General Liquidity is a neotrading research lab building toward an autonomous trading organization.
+**General Liquidity is a neotrading research lab building toward an autonomous trading organization.**
 
 We build environments, evaluations and benchmarks for AI agents in financial markets. Our work investigates whether trading performance survives statistical scrutiny, execution constraints and changing market conditions, with the long-term aim of developing durable alpha.
 
