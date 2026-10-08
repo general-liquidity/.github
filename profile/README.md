@@ -6,7 +6,6 @@
 ## A neotrading research lab
 
 We research markets and build autonomous trading systems for our own capital.
-Independent, founder-run, and self-funded.
 
 ### Products
 
