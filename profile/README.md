@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/general-liquidity/.github/main/assets/banner.png" alt="General Liquidity" width="880" />
 </picture>
 
-## A neotrading research lab
+## General Liquidity
 
 General Liquidity is a neotrading research lab building toward an autonomous trading organization.
 
